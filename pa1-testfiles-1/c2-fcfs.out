@@ -1,0 +1,11 @@
+  2 processes
+Using fcfs
+Time    0 : P1 selected (burst 5)
+Time    5 : P1 finished
+Time    5 : Idle
+Time    7 : P2 selected (burst 9)
+Time    16 : P2 finished
+Finished at time  16
+
+P1 wait   0 turnaround  5 response   0
+P2 wait   0 turnaround  9 response   0
