@@ -156,7 +156,7 @@ def write_output_file(filename, log, processes, scheduling_algorithm, quantum=No
     output_filename = filename.replace('.in', '.out')
     with open(output_filename, 'w') as file:
         file.write(f"  {len(processes)} processes\n")
-        file.write(f"Using {scheduling_algorithm.replace('rr', 'Round-Robin').replace('sjf', 'preemptive Shortest Job First')}\n")
+        file.write(f"Using {scheduling_algorithm.replace('rr', 'Round-Robin').replace('sjf', 'preemptive Shortest Job First').replace('fcfs', 'Using First-Come First-Served')}\n")
         if quantum:
             file.write(f"Quantum   {quantum}\n\n")
         for entry in log:
